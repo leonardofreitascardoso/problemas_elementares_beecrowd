@@ -1,7 +1,5 @@
-n1  = input()
-n2 = input()
-n1 = int(n1)
-n2 = int(n2)
+n1  = int(input())
+n2 = int(nput())
 
 n1_copia = n1
 n2_copia = n2
@@ -26,4 +24,5 @@ soma = 0
 for item in lista:
     if (item % 2) != 0:
         soma+=item
+
 print(soma)
